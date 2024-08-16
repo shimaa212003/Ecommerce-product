@@ -1,11 +1,11 @@
 
- import Menu from "../assets/images/icon-menu.svg"
- import Logo from "../assets/images/logo.svg"
- import Close from "../assets/images/icon-close.svg"
- import Cart from "../assets/images/icon-cart.svg"
- import Avatar from "../assets/images/image-avatar.png"
- import productthumbnail1 from "../assets/images/image-product-1-thumbnail.jpg"
- import Delete from "../assets/images/icon-delete.svg"
+ import Menu from "/images/icon-menu.svg"
+ import Logo from "/images/logo.svg"
+ import Close from "/images/icon-close.svg"
+ import Cart from "/images/icon-cart.svg"
+ import Avatar from "/images/image-avatar.png"
+ import productthumbnail1 from "/images/image-product-1-thumbnail.jpg"
+ import Delete from "/images/icon-delete.svg"
  import { Link } from "react-router-dom"
 import { useState } from "react";
 

@@ -1,7 +1,7 @@
 import  { useState } from "react"
-import Plus from "../assets/images/icon-plus.svg"
-import Minus from "../assets/images/icon-minus.svg"
-import Cart from "../assets/images/icon-cart.svg"
+import Plus from "/images/icon-plus.svg"
+import Minus from "/images/icon-minus.svg"
+import Cart from "/images/icon-cart.svg"
 
 
 const ProductDescription = (props)=>

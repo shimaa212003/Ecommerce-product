@@ -3,14 +3,14 @@
 import {  useState } from "react"
 import {Lightbox} from "yet-another-react-lightbox"
 import "yet-another-react-lightbox/styles.css"
-import productthumbnail1 from "../assets/images/image-product-1-thumbnail.jpg"
-import productthumbnail2 from "../assets/images/image-product-2-thumbnail.jpg"
-import productthumbnail3 from "../assets/images/image-product-3-thumbnail.jpg"
-import productthumbnail4 from "../assets/images/image-product-4-thumbnail.jpg"
-import product1 from "../assets/images/image-product-1.jpg"
-import product2 from "../assets/images/image-product-2.jpg"
-import product3 from "../assets/images/image-product-3.jpg"
-import product4 from "../assets/images/image-product-4.jpg"
+import productthumbnail1 from "/images/image-product-1-thumbnail.jpg"
+import productthumbnail2 from "/images/image-product-2-thumbnail.jpg"
+import productthumbnail3 from "/images/image-product-3-thumbnail.jpg"
+import productthumbnail4 from "/images/image-product-4-thumbnail.jpg"
+import product1 from "/images/image-product-1.jpg"
+import product2 from "/images/image-product-2.jpg"
+import product3 from "/images/image-product-3.jpg"
+import product4 from "/images/image-product-4.jpg"
 const Gallery = (props)=>{
     const [open,setOpen]= useState(false)
     const[mainImage,setMainImage]=useState(product1)
